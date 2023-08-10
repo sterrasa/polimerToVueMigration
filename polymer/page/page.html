@@ -1,0 +1,18 @@
+<link rel="import" href="../number-selector/number-selector.html">
+
+<dom-module id="x-page">
+    <template>
+        <x-number-selector min="5" max="15" on-selected="handleSelected">
+            <div slot="message">Please select a number!</div>
+        </x-number-selector>
+        <p>Current selection: [[currentSelection]]</p>
+    </template>
+    <script>
+        Polymer({
+            is: 'x-page',
+            handleSelected: function (selection) {
+                this.currentSelection = selection.detail;
+            }
+        });
+    </script>
+</dom-module>

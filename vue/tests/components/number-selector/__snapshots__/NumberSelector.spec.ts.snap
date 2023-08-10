@@ -1,0 +1,229 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NumberSelector Test suite > should render the webcomponent without errors 1`] = `
+<div
+  class="number-selector"
+  data-v-5fddf4a8=""
+  style="--background-color: #fffff; --text-color: rgba(0 0 0 / 87%);"
+>
+  
+  Select:
+  
+  <div
+    class="selectables"
+    data-v-5fddf4a8=""
+  >
+    
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 0"
+        data-v-5fddf4a8=""
+        id="item-0"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="0"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-0"
+      >
+        0
+      </label>
+    </span>
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 1"
+        data-v-5fddf4a8=""
+        id="item-1"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="1"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-1"
+      >
+        1
+      </label>
+    </span>
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 2"
+        data-v-5fddf4a8=""
+        id="item-2"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="2"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-2"
+      >
+        2
+      </label>
+    </span>
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 3"
+        data-v-5fddf4a8=""
+        id="item-3"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="3"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-3"
+      >
+        3
+      </label>
+    </span>
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 4"
+        data-v-5fddf4a8=""
+        id="item-4"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="4"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-4"
+      >
+        4
+      </label>
+    </span>
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 5"
+        data-v-5fddf4a8=""
+        id="item-5"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="5"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-5"
+      >
+        5
+      </label>
+    </span>
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 6"
+        data-v-5fddf4a8=""
+        id="item-6"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="6"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-6"
+      >
+        6
+      </label>
+    </span>
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 7"
+        data-v-5fddf4a8=""
+        id="item-7"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="7"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-7"
+      >
+        7
+      </label>
+    </span>
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 8"
+        data-v-5fddf4a8=""
+        id="item-8"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="8"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-8"
+      >
+        8
+      </label>
+    </span>
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 9"
+        data-v-5fddf4a8=""
+        id="item-9"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="9"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-9"
+      >
+        9
+      </label>
+    </span>
+    <span
+      class="selectable"
+      data-v-5fddf4a8=""
+    >
+      <input
+        aria-label="Select 10"
+        data-v-5fddf4a8=""
+        id="item-10"
+        style="width: 1.0rem; height: 1.0rem;"
+        type="radio"
+        value="10"
+      />
+      <label
+        data-v-5fddf4a8=""
+        for="item-10"
+      >
+        10
+      </label>
+    </span>
+    
+  </div>
+</div>
+`;

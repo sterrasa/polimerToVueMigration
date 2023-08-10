@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + Vue + TS</title>
+</head>
+
+<body>
+  <div class="number-selector-container">
+    <number-selector min-value="5" max-value="30" background-color="#242424" text-color="#ffffff" radio-size="1.2rem">
+      Please select a number
+    </number-selector>
+    
+    <div class="selection">
+      <p>Current selection: <span id="currentSelection"></span></p>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+
+  <script>
+    // Define the handleSelected function
+    document.querySelector('number-selector').addEventListener('selected', (event) => {
+      const selectedNumber = event.detail;
+      console.log('Number selected:', selectedNumber[0]);
+      document.getElementById('currentSelection').textContent = selectedNumber;
+    });
+  </script>
+</body>
+
+</html>
